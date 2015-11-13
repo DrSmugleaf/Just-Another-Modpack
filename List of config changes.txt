@@ -1,0 +1,330 @@
+Config Changes
+
+Aether II:
+Disabled Aether's menu.
+Disabled Continuum Orb.
+
+agricraft/Agricraft:
+Disabled resource crops.
+Disabled weeds.
+Disabled weeds overtaking other plants.
+
+Armourer's Workshop:
+Disabled update check.
+
+Artifice:
+Set worldgen dimension blacklist to -1, 0 and 1. (S:"Dimension Blacklist"=-1,0,1)
+
+Aura:
+Disabled giving the encyclopedia aura automatically. (B:"Give Encyclopedia Aura automatically"=false)
+
+Backpacks:
+Maximum of 1 Backpack in inventory.
+
+battlegear2:
+Disabled GUI buttons. (B:"Enable GUI Buttons"=false)
+Disabled GUI keys. (B:"Enable GUI Keys"=false)
+
+BiblioCraft:
+Disabled update check.
+Enabled empty books being able to be placed on bookcases. (B:AllowEmptyBooks=true)
+Increased the cost of copying enchanted books to 2147483647. (I:EnchantmentCostMultiplyer=2147483647)
+Lowered the maximum uses of an enchanted plate to 1. (I:MaxEnchantedPlateUses=1)
+
+Botania:
+Enabled alternate flower textures. (B:flowerTextures.alt=true)
+Disabled Hand of Ender's ability to open other players' enderchests. (B:enderPickpocket.enabled=false)
+Disabled update check.
+
+BspkrsCore:
+Disabled update check.
+
+buildcraft/main:
+Disabled oil dragging down entities. (B:oilIsDense=false)
+Disabled showing all BC facades in Creative/NEI. (B:facadeShowAllInCreative=false)
+Disabled update check. (B:updateCheck=false)
+Disabled water springs. (B:generateWaterSprings=false)
+Lowered I:builderMaxIterationsPerItemFactor to 512. (Default=1024)
+Lowered I:markerRange to 32. (Default=64)
+
+CarpentersBlocks:
+Disabled block ownership. (B:"Enable Ownership"=false)
+
+CFM (MrCrayfishFurnitureMod):
+Disabled welcome message.
+Disabled dishwasher's ability to repair tools and weapons.
+Disabled computer's ability to buy items, except for the recipe book.
+Disabled printer's ability to print enchanted books.
+Disabled washing machine's ability to repair armor.
+Disabled RecipeAPI debug.
+
+ChickenChunks:
+Enabled Ops being able to access others' chunkloaders. (op-interact=true)
+Disabled offline chunkloading. (allowoffline{ DEFAULT=false OP=false })
+Disabled update check. (checkUpdates=false)
+Lowered per-player chunk limit to 100. (players { DEFAULT=100 OP=100 })
+
+chocobo_config:
+Disabled the chocopedia being able to spawn in dungeons. (chocopediaInDungeons = false)
+
+chocolateQuest:
+Increased dungeon chunk separation to 50. (Default: 10) (I:dungeonSeparation=25)
+
+CodeChickenCore:
+Disabled update check.
+
+cofh/core/common:
+Disabled named mobs death messages.
+Disabled update check.
+Enabled Ops being able to access secure blocks.
+Enabled flat bedrock. (B:FlatBedrock=true)
+Enabled flat bedrock oregen. (B:RetroactiveFlatBedrock=true)
+Enabled ore retrogen. (B:RetroactiveOreGeneration=true)
+
+cofh/world:
+Changed the oregen.
+Disabled Aether II's continuum ore from spawning.
+
+endercore/endercore:
+Increased anvil max level to 100. (I:anvilMaxLevel=100)
+EnderStorage:
+Disabled update check.
+
+EnderStorage:
+Disabled disabling the vanilla ender chest. (disable-vanilla=false)
+Increased chest size to 6x9. (item.storage-size=2)
+
+erebus:
+Enabled aluminium generation. (B:"Generate aluminium"=true)
+Enabled copper generation. (B:"Generate copper"=true)
+Enabled lead generation. (B:"Generate lead"=true)
+Enabled silver generation. (B:"Generate silver"=true)
+Enabled tin generation. (B:"Generate tin"=true)
+Disabled Block O' Bones on death. (B:"Block O' Bones Inventory Save"=false)
+
+ExtraCells 2:
+Disabled IGW integration.
+
+ExtraTiC:
+Disabled Extra Utilities integration. (B:extraUtils=false)
+
+ExtraUtilities:
+Disabled generator recipe. (B:disableGeneratorRecipe=true)
+Disabled golden bag of holding recipe. (B:disableGoldenBagRecipe=true)
+Disabled generator. (B:GeneratorEnabled=false)
+Disabled generatorx8. (B:Generator8Enabled=false)
+Disabled generatorx64. (B:Generator64Enabled=false)
+Disabled golden bag of holding. (B:GoldenBagEnabled=false)
+Disabled magical wood in tinker's construct. (I:tcon_magical_wood_id=0)
+
+forestry/common:
+Disabled copper from generating. (B:copper=false)
+Disabled tin from generating. (B:tin=false)
+
+Forge:
+Disabled spawn location randomizer. (B:spawnHasFuzz=false)
+
+local/ftbu:
+Enabled auto export inv on logout. ("autoExportInvOnLogout": true,)
+Disabled starting items.
+Increased backups to keep to 25. (Default: 12) ("backupsToKeep": 25,)
+Lowered backup interval to 0.5. (Default: 2.0) ("backupTimer": 0.5,)
+Lowered player chunk claim limit to 50. (Default: 500) ("maxClaimsPlayer": 50)
+
+Galacticraft/asteroids:
+Lowered maximum Astro Miner amount to 0.
+
+Galacticraft/core:
+Disabled copper from generating. (B:"Enable Copper Ore Gen"=false)
+Disabled tin from generating. (B:"Enable Tin Ore Gen"=false)
+Disabled meteors destroying blocks. (B:"Meteor Block Damage Enabled"=false)
+Disabled update check.
+Forced overworld spawn. (B:"Force Overworld Spawn"=true)
+
+Galacticraft/power-GC3:
+Set energy display to RF.
+
+GanysMods/ganysend:
+Disabled update check. (B:shouldDoVersionCheck=false)
+
+GanysMods/ganysnether:
+Disabled update check. (B:shouldDoVersionCheck=false)
+
+GanysMods/ganyssurface:
+Disabled 3D rendering for vanilla items. (B:"Enable 3D rendering for vanilla items"=false)
+Disabled no recipe conflict for the vanilla crafting tables (B:"Enable No Recipe Conflict for only the vanilla Crafting Tables"=false)
+Disabled update check. (B:shouldDoVersionCheck=false)
+
+Guide-API/Guide-API:
+Disabled logging. (B:enableLogging=false)
+
+Hardcore Ender Expansion:
+Enabled overpowered mobs. (B:overpoweredMobs=false)
+Disabled Ender Goo battling water. (B:gooBattlesWater=false)
+Disabled HEE-ORB.
+Disabled update check.
+
+hqm/hqmconfig:
+Disabled status message. (B:NoHardcoreMessage=false)
+Enabled server quest sync. (B:ServerSync=true)
+
+Hats:
+Disabled first join message. (I:firstJoinMessage=0)
+
+Headcrumbs:
+Changed mob prefix to [HEADCRUMBS]. (S:prefix=[HEADCRUMBS] )
+Disabled headcrumbs mobs from being able to open doors. (B:"Allow celebrity mobs to open doors"=false)
+
+iChunUtil:
+Disabled update check.
+
+IguanaTinkerTweaks/main:
+Changed the levels that you get bonuses and modifiers slots at.
+Disabled disabling non T-Construct tools. (B:disableRegularTools=false)
+Disabled special diamond usage. (B:diamondRequired=false)
+Disabled stone parts only being able to be used for casts. (B:disableStoneTools=false)
+Increased the durability of tools to 100. (I:durabilityPercentage=100)
+
+IguanaTinkerTweaks/Modules:
+Disabled tiered harvesting levels. (B:HarvestLevelTweaks=false)
+
+IGWMod:
+Disabled missing mod notification. (B:enable_missing_notification=false)
+
+ImmersiveEngineering:
+Disabled all the oregen.
+
+LogisticsPipes:
+Disabled update check.
+
+LunatriusCore:
+Disabled update check.
+
+MagicBees:
+Disabled update check.
+
+mariculture/world-generation:
+Disabled bauxite generation. (B:"Bauxite > Generation"=false)
+Disabled copper generation. (B:"Copper > Generation"=false)
+
+MCA:
+Disabled giving the crystal ball on spawn. (B:"Give crystal ball"=false)
+Disabled Patreon button. (B:"Disable patreon button"=true)
+Disabled update check. (B:"Allow update checking"=false)
+Set the villager prefix to [MCA]. (S:"Villager chat prefix"=[MCA])
+
+MineTweaker/ModTweaker:
+Disabled Artifice's nuclear battery.
+Disabled Aether II's continuum ore and continuum orb on NEI.
+Disabled other backpacks in favor of the Backpacks' mod.
+
+Modstats:
+Enabled log only mode. (B:LogOnly=true)
+Disabled update check. (B:AllowUpdates=false)
+
+MUD:
+Disabled update check. (B:"Update Check Enabled"=false)
+
+Mystcraft:
+Disabled analyzing world. (B:useconfigs=true)
+Disabled instability. (B:global.enabled=false)
+Disabled respawning in ages. (B:respawning.respawnInAges=false)
+
+NEI:
+Disabled update check.
+
+neiintegration:
+Enabled showing item burn times. (B:"Burn Time"=true)
+Enabled showing the internal name of items. (B:"Internal Name"=true)
+Enabled showing the internal name of items only when holding shift. (B:"Internal Name Shift"=true)
+Enabled showing the ore dictionary names of items. (B:"Ore Dictionary Names"=true)
+Enabled showing the ore dictionary names of items only when holding shift. (B:"Ore Dictionary Names Shift"=true)
+
+NoNausea:
+Set mode to 0, no effect at all. (I:Mode=0)
+
+MapWriter:
+Moved the map to the bottom right.
+
+Mariculture:
+Removed spawning with a guide book. (B:"Spawn Books on First Action"=false)
+
+OpenBlocks:
+Disabled death effects from FlimFlam. (B:safeOnly=true)
+Disabled giving the info book on first login. (B:infoBook=false)
+Disabled the explosive enchantment breaking blocks. (B:explosiveEnchantGrief=false)
+Disabled the grave spawning skeletons. (B:spawnSkeletons=false)
+Set the elevator to ignore blocks. (B:ignoreAllBlocks=true)
+Set the elevator to ignore half blocks. (B:ignoreHalfBlocks=true)
+Set the elevator to have 100 range. (I:searchDistance=100)
+
+OpenComputers:
+Added Botania, Blood Magic, Thaumcraft and Witchery to the computer blacklist. (modBlacklist=[Botania, Blood Magic, Thaumcraft, Witchery])
+Disabled giving the manual on first spawn. (giveManualToNewPlayers=false)
+Disabled update check.
+
+Opis:
+Set the minimum level to view opis to ADMIN. (S:opis=ADMIN)
+Set the minimum level to show overlays on mapwriter to ADMIN. (S:overlays=ADMIN)
+Set the minimum level to view tables to ADMIN. (S:tables=ADMIN)
+
+PneumaticCraft:
+Disabled update check. (B:"Enable Update Checker"=false)
+Disabled IGW integration. (B:IGWMod=false)
+
+progressiveautomation:
+Disabled wither tools and its materials. (B:witherTools=false)
+
+ProjectRed:
+Disabled copper generation. (B:"Copper Ore"=false)
+Disabled silver generation. (B:"Silver Ore"=false)
+Disabled tin generation. (B:"Tin Ore"=false)
+Disabled update check. (B:"Enable Version checking"=false)
+
+RadixCore:
+Disabled update check. (B:"Allow update checking"=false)
+
+Random Things:
+Enabled Blood Moon mobs despawning at dawn. (B:BloodmoonVanish=true)
+Decreased the Blood Moon entity limit to 2. (Default: 3) (I:BloodMoonSpawnLimitMult=2)
+Decreased the Blood Moon mob spawning speed to 2. (Default: 3) (I:BloodMoonSpawnSpeed=2)
+Disabled Blood Moon red tint. (B:BloodMoonRedLight=false)
+Increased the Blood Moon minimum spawn range from players to 12. (Default: 3) (I:BloodMoonSpawnRange=12)
+
+Sanguimancy:
+Disabled book and soul chunk claimer in starting inventory.
+
+sprinkles_for_vanilla:
+Enabled hiding your own potion effects. (I:potionEffectsShown=1)
+Disabled most mob griefing. (B:mobGriefingOverride=true)
+Disabled spawn fuzz. (B:enableSpawnFuzz=false)
+Disabled sprint cooldown. (B:sprintingHasCooldown=false)
+
+startingInventory:
+Removed starting items.
+
+SquidAPI:
+Disabled update check.
+
+TaintedMagic:
+Disabled update check.
+
+Thaumcraft:
+Enable Cheat sheet in creative mode.
+
+ThaumicTinkerer:
+Disabled imbued fire. (B:imbuedFire.enabled=false)
+Disabled imbued fire making cake. (B:imbuedFire.cake.enabled=false)
+
+TinkersConstruct:
+Disabled aluminium generation. (B:"Generate Aluminum"=false)
+Disabled copper generation. (B:"Generate Copper"=false)
+Disabled tin generation. (B:"Generate Tin"=false)
+Disabled keeping hunger on death. (B:"Keep hunger on death"=false)
+Disabled spawning book on first login. (B:"Spawn beginner book"=false)
+
+Translocator:
+Disabled update check.
+
+Zyin's Hud:
+Torchhelper disabled.

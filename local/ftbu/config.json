@@ -1,0 +1,56 @@
+{
+  "backups": {
+    "autoExportInvOnLogout": true,
+    "backupsToKeep": 25,
+    "backupTimer": 0.5,
+    "compressionLevel": 1,
+    "displayFileSize": true,
+    "enabled": true,
+    "folder": "./backups/"
+  },
+  "claims": {
+    "breakWhitelist": [
+      "OpenBlocks:grave"
+    ],
+    "forcedChunkSecurity": -1,
+    "forcedExplosions": 1,
+    "maxClaimsAdmin": 1000,
+    "maxClaimsPlayer": 50
+  },
+  "commands": {
+    "admin_backup": true,
+    "admin_edit_config": true,
+    "admin_invsee": true,
+    "admin_unclaim": true,
+    "admin_warps": true,
+    "admin_world_border": true,
+    "back": true,
+    "back_only_once": true,
+    "name_cmd_admin": "admin",
+    "spawn": true,
+    "tplast": true,
+    "warp": true
+  },
+  "general": {
+    "allowCreativeInteractSecure": true,
+    "blockedEntities": [],
+    "restartTimer": 0.0,
+    "safeSpawn": false,
+    "spawnPVP": true
+  },
+  "login": {
+    "customBadges": "",
+    "motd": [
+      "Welcome to the server!"
+    ],
+    "rules": "",
+    "startingItems": []
+  },
+  "tops": {
+    "deaths": true,
+    "deaths_ph": true,
+    "first_joined": true,
+    "last_seen": true,
+    "time_played": true
+  }
+}

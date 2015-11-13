@@ -1,0 +1,19 @@
+{
+    "continuum": {
+        "template": "uniform",
+        "block": "Continuum Ore",
+        "material": "aether:continuumOre",
+        "clusterSize": 32,
+        "numClusters": 20,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            3,
+			-19
+        ]
+    },
+}

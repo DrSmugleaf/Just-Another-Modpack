@@ -1,0 +1,401 @@
+{
+   "key.attack": {
+      "keyCode": -100
+   },
+   "key.use": {
+      "keyCode": -99
+   },
+   "key.forward": {
+      "keyCode": 17
+   },
+   "key.left": {
+      "keyCode": 30
+   },
+   "key.back": {
+      "keyCode": 31
+   },
+   "key.right": {
+      "keyCode": 32
+   },
+   "key.jump": {
+      "keyCode": 57
+   },
+   "key.sneak": {
+      "keyCode": 42
+   },
+   "key.drop": {
+      "keyCode": 16
+   },
+   "key.inventory": {
+      "keyCode": 18
+   },
+   "key.chat": {
+      "keyCode": 20
+   },
+   "key.playerlist": {
+      "keyCode": 15
+   },
+   "key.pickItem": {
+      "keyCode": -98
+   },
+   "key.command": {
+      "keyCode": 53
+   },
+   "key.screenshot": {
+      "keyCode": 60
+   },
+   "key.togglePerspective": {
+      "keyCode": 63
+   },
+   "key.smoothCamera": {
+      "keyCode": 0
+   },
+   "key.sprint": {
+      "keyCode": 29
+   },
+   "key.streamStartStop": {
+      "keyCode": 64
+   },
+   "key.streamPauseUnpause": {
+      "keyCode": 65
+   },
+   "key.streamCommercial": {
+      "keyCode": 0
+   },
+   "key.streamToggleMic": {
+      "keyCode": 0
+   },
+   "key.fullscreen": {
+      "keyCode": 87
+   },
+   "key.hotbar.1": {
+      "keyCode": 2
+   },
+   "key.hotbar.2": {
+      "keyCode": 3
+   },
+   "key.hotbar.3": {
+      "keyCode": 4
+   },
+   "key.hotbar.4": {
+      "keyCode": 5
+   },
+   "key.hotbar.5": {
+      "keyCode": 6
+   },
+   "key.hotbar.6": {
+      "keyCode": 7
+   },
+   "key.hotbar.7": {
+      "keyCode": 8
+   },
+   "key.hotbar.8": {
+      "keyCode": 9
+   },
+   "key.hotbar.9": {
+      "keyCode": 10
+   },
+   "Draw Weapons": {
+      "keyCode": 19
+   },
+   "Special": {
+      "keyCode": 44
+   },
+   "key.charge": {
+      "keyCode": 47
+   },
+   "key.extra": {
+      "keyCode": 46
+   },
+   "key.release": {
+      "keyCode": 19
+   },
+   "key.toggle": {
+      "keyCode": 21
+   },
+   "key.openCompendium": {
+      "keyCode": 25
+   },
+   "key.personalBackpack": {
+      "keyCode": 48
+   },
+   "key.pong": {
+      "keyCode": 33
+   },
+   "key.clockworkphase.multitool": {
+      "keyCode": 47
+   },
+   "key.clockworkphase.temporalAbility": {
+      "keyCode": 19
+   },
+   "Cosmetic Inventory": {
+      "keyCode": 46
+   },
+   "key.binder": {
+      "keyCode": 40
+   },
+   "Lore Journal": {
+      "keyCode": 38
+   },
+   "Pneumatic Helmet Options": {
+      "keyCode": 33,
+      "shift": false,
+      "control": false,
+      "alt": false
+   },
+   "Pneumatic Helmet Hack": {
+      "keyCode": 35,
+      "shift": false,
+      "control": false,
+      "alt": false
+   },
+   "key.sapmanpack.updateKey": {
+      "keyCode": 22
+   },
+   "keys.armourersworkshop.equipmentWardrobe": {
+      "keyCode": 25
+   },
+   "keys.armourersworkshop.undo": {
+      "keyCode": 44
+   },
+   "Baubles Inventory": {
+      "keyCode": 48
+   },
+   "Change Wand Focus": {
+      "keyCode": 33
+   },
+   "Activate Hover Harness": {
+      "keyCode": 35
+   },
+   "Misc Wand Toggle": {
+      "keyCode": 34
+   },
+   "aura.angelJump": {
+      "keyCode": 200
+   },
+   "aura.angelJumpDown": {
+      "keyCode": 208
+   },
+   "waila.keybind.wailaconfig": {
+      "keyCode": 82
+   },
+   "waila.keybind.wailadisplay": {
+      "keyCode": 79
+   },
+   "waila.keybind.liquid": {
+      "keyCode": 80
+   },
+   "waila.keybind.recipe": {
+      "keyCode": 81
+   },
+   "waila.keybind.usage": {
+      "keyCode": 75
+   },
+   "Automagy.key.focusCrafting": {
+      "keyCode": 46
+   },
+   "key.tarmor": {
+      "keyCode": 24,
+      "shift": false,
+      "control": false,
+      "alt": false
+   },
+   "key.tgoggles": {
+      "keyCode": 34,
+      "shift": false,
+      "control": false,
+      "alt": false
+   },
+   "key.tbelt": {
+      "keyCode": 48,
+      "shift": false,
+      "control": false,
+      "alt": false
+   },
+   "key.tzoom": {
+      "keyCode": 44,
+      "shift": false,
+      "control": false,
+      "alt": false
+   },
+   "ttmisc.toggleArmor": {
+      "keyCode": 22
+   },
+   "[
+      GC
+   ] Galaxy Map": {
+      "keyCode": 50
+   },
+   "[
+      GC
+   ] Open Spaceship Inventory": {
+      "keyCode": 33
+   },
+   "[
+      GC
+   ] Toggle Sensor Goggles Mode": {
+      "keyCode": 37
+   },
+   "Portable Dual Work Table": {
+      "keyCode": 25
+   },
+   "key.fart.desc": {
+      "keyCode": 33
+   },
+   "key.materialCosts": {
+      "keyCode": 56,
+      "shift": false,
+      "control": false,
+      "alt": false
+   },
+   "key.clipboardPaste": {
+      "keyCode": 210,
+      "shift": false,
+      "control": false,
+      "alt": false
+   },
+   "key.mw_open_gui": {
+      "keyCode": 74
+   },
+   "key.mw_new_marker": {
+      "keyCode": 210
+   },
+   "key.mw_next_map_mode": {
+      "keyCode": 49
+   },
+   "key.mw_next_marker_group": {
+      "keyCode": 51
+   },
+   "key.mw_teleport": {
+      "keyCode": 52
+   },
+   "key.mw_zoom_in": {
+      "keyCode": 201
+   },
+   "key.mw_zoom_out": {
+      "keyCode": 209
+   },
+   "key.mw_underground_mode": {
+      "keyCode": 22
+   },
+   "key.armor": {
+      "keyCode": 25
+   },
+   "key.aspectMenu": {
+      "keyCode": 23
+   },
+   "Change Arcane Lens": {
+      "keyCode": 47
+   },
+   "Activate Morphic Fingers": {
+      "keyCode": 49
+   },
+   "Toggle Spider Climb": {
+      "keyCode": 46
+   },
+   "Toggle Chameleon Skin": {
+      "keyCode": 45
+   },
+   "Glide": {
+      "keyCode": 34
+   },
+   "Glider Lift": {
+      "keyCode": 33
+   },
+   "Beetle Ram Attack": {
+      "keyCode": 19
+   },
+   "key.craftingGrid": {
+      "keyCode": 46
+   },
+   "TG.keybind.openInv": {
+      "keyCode": 71
+   },
+   "TG.keybind.activeaAbilities": {
+      "keyCode": 19
+   },
+   "WorldEdit Reference": {
+      "keyCode": 38
+   },
+   "key.zyinhud.animalinfo": {
+      "keyCode": 24
+   },
+   "key.zyinhud.coordinates": {
+      "keyCode": 59
+   },
+   "key.zyinhud.distancemeasurer": {
+      "keyCode": 37
+   },
+   "key.zyinhud.eatingaid": {
+      "keyCode": 34
+   },
+   "key.zyinhud.enderpearlaid": {
+      "keyCode": 46
+   },
+   "key.zyinhud.playerlocator": {
+      "keyCode": 25
+   },
+   "key.zyinhud.potionaid": {
+      "keyCode": 47
+   },
+   "key.zyinhud.quickdeposit": {
+      "keyCode": 45
+   },
+   "key.zyinhud.safeoverlay": {
+      "keyCode": 38
+   },
+   "key.zyinhud.weaponswapper": {
+      "keyCode": 33
+   },
+   "key.zyinhud.zyinhudoptions": {
+      "keyCode": 44
+   },
+   "key.zyinhud.itemselector": {
+      "keyCode": 56
+   },
+   "key.cofh.empower": {
+      "keyCode": 47
+   },
+   "key.cofh.multimode": {
+      "keyCode": 46
+   },
+   "railcraft.keybind.loco.faster": {
+      "keyCode": 52
+   },
+   "railcraft.keybind.loco.slower": {
+      "keyCode": 51
+   },
+   "railcraft.keybind.loco.mode": {
+      "keyCode": 50
+   },
+   "railcraft.keybind.loco.whistle": {
+      "keyCode": 49
+   },
+   "key.control": {
+      "keyCode": 29
+   },
+   "enchiridion.key.wiki": {
+      "keyCode": 35
+   },
+   "key.journeymap.map_toggle": {
+      "keyCode": 36
+   },
+   "key.journeymap.zoom_in": {
+      "keyCode": 13
+   },
+   "key.journeymap.zoom_out": {
+      "keyCode": 12
+   },
+   "key.journeymap.minimap_type": {
+      "keyCode": 27
+   },
+   "key.journeymap.minimap_preset": {
+      "keyCode": 43
+   },
+   "key.journeymap.create_waypoint": {
+      "keyCode": 48
+   },
+   "key.activate": {
+      "keyCode": 47
+   }
+}
