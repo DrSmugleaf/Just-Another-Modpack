@@ -1,6 +1,6 @@
 
 {
-  "ID": 194,
+  "ID": 210,
   "Name": "Eerie",
   "Class": "thaumcraft.common.lib.world.biomes.BiomeGenEerie",
   "Color": 4212800,
@@ -8,8 +8,6 @@
   "Height Variation": 0.2,
   "Top Block": "minecraft:grass",
   "Filler Block": "minecraft:dirt",
-  "Actual Filler Block": "minecraft:stone",
-  "Liquid Filler Block": "minecraft:water",
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "3035999",

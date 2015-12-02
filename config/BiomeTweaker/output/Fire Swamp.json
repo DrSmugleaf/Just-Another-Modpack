@@ -1,6 +1,6 @@
 
 {
-  "ID": 173,
+  "ID": 195,
   "Name": "Fire Swamp",
   "Class": "twilightforest.biomes.TFBiomeFireSwamp",
   "Color": 4334362,
@@ -8,8 +8,6 @@
   "Height Variation": 0.2,
   "Top Block": "minecraft:grass",
   "Filler Block": "minecraft:dirt",
-  "Actual Filler Block": "minecraft:stone",
-  "Liquid Filler Block": "minecraft:water",
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "7089196",
@@ -20,7 +18,6 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
-    "FOREST",
     "SWAMP",
     "WASTELAND"
   ],
@@ -95,32 +92,13 @@
       "Max Group Count": 20
     },
     {
-      "Entity Class": "tconstruct.world.entity.BlueSlime",
-      "Weight": 1,
-      "Min Group Count": 4,
-      "Max Group Count": 20
-    },
-    {
       "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBasalz",
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 4
     }
   ],
-  "Spawnable Water Creatures": [
-    {
-      "Entity Class": "thehippomaster.aquaticabyss.CommonFish",
-      "Weight": 10,
-      "Min Group Count": 3,
-      "Max Group Count": 5
-    },
-    {
-      "Entity Class": "thehippomaster.aquaticabyss.Butterflyfish",
-      "Weight": 9,
-      "Min Group Count": 2,
-      "Max Group Count": 5
-    }
-  ],
+  "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [
     {
       "Entity Class": "net.minecraft.entity.passive.EntityBat",

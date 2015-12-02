@@ -1,6 +1,6 @@
 
 {
-  "ID": 170,
+  "ID": 192,
   "Name": "Dark Forest Center",
   "Class": "twilightforest.biomes.TFBiomeDarkForestCenter",
   "Color": 8704,
@@ -8,8 +8,6 @@
   "Height Variation": 0.05,
   "Top Block": "minecraft:grass",
   "Filler Block": "minecraft:dirt",
-  "Actual Filler Block": "minecraft:stone",
-  "Liquid Filler Block": "minecraft:water",
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",
@@ -129,12 +127,6 @@
       "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 1
-    },
-    {
-      "Entity Class": "tconstruct.world.entity.BlueSlime",
-      "Weight": 1,
-      "Min Group Count": 4,
-      "Max Group Count": 20
     }
   ],
   "Spawnable Water Creatures": [],

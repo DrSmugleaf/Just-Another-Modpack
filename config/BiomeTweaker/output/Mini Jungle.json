@@ -1,6 +1,6 @@
 
 {
-  "ID": 44,
+  "ID": 82,
   "Name": "Mini Jungle",
   "Class": "extrabiomes.module.summa.biome.BiomeMiniJungle",
   "Color": 4315427,
@@ -8,8 +8,6 @@
   "Height Variation": 0.2,
   "Top Block": "minecraft:grass",
   "Filler Block": "minecraft:dirt",
-  "Actual Filler Block": "minecraft:stone",
-  "Liquid Filler Block": "minecraft:water",
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "2404380",
@@ -132,18 +130,6 @@
       "Weight": 10,
       "Min Group Count": 4,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "thehippomaster.aquaticabyss.CommonFish",
-      "Weight": 10,
-      "Min Group Count": 3,
-      "Max Group Count": 5
-    },
-    {
-      "Entity Class": "thehippomaster.aquaticabyss.Butterflyfish",
-      "Weight": 9,
-      "Min Group Count": 2,
-      "Max Group Count": 5
     }
   ],
   "Spawnable Cave Creatures": [

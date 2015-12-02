@@ -1,6 +1,6 @@
 
 {
-  "ID": 57,
+  "ID": 95,
   "Name": "Tundra",
   "Class": "extrabiomes.module.summa.biome.BiomeTundra",
   "Color": 3168901,
@@ -8,8 +8,6 @@
   "Height Variation": 0.1,
   "Top Block": "minecraft:grass",
   "Filler Block": "minecraft:dirt",
-  "Actual Filler Block": "minecraft:stone",
-  "Liquid Filler Block": "minecraft:water",
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",
@@ -127,18 +125,6 @@
       "Weight": 10,
       "Min Group Count": 4,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "thehippomaster.aquaticabyss.CommonFish",
-      "Weight": 10,
-      "Min Group Count": 3,
-      "Max Group Count": 5
-    },
-    {
-      "Entity Class": "thehippomaster.aquaticabyss.Butterflyfish",
-      "Weight": 9,
-      "Min Group Count": 2,
-      "Max Group Count": 5
     }
   ],
   "Spawnable Cave Creatures": [

@@ -1,15 +1,13 @@
 
 {
-  "ID": 58,
+  "ID": 96,
   "Name": "Wasteland",
   "Class": "extrabiomes.module.summa.biome.BiomeWasteland",
   "Color": 10386497,
   "Root Height": 0.1,
   "Height Variation": 0.0,
-  "Top Block": "minecraft:grass",
-  "Filler Block": "minecraft:dirt",
-  "Actual Filler Block": "minecraft:stone",
-  "Liquid Filler Block": "minecraft:water",
+  "Top Block": "ExtrabiomesXL:terrain_blocks2",
+  "Filler Block": "ExtrabiomesXL:terrain_blocks2",
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "15761408",
@@ -95,18 +93,6 @@
       "Weight": 10,
       "Min Group Count": 4,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "thehippomaster.aquaticabyss.CommonFish",
-      "Weight": 10,
-      "Min Group Count": 3,
-      "Max Group Count": 5
-    },
-    {
-      "Entity Class": "thehippomaster.aquaticabyss.Butterflyfish",
-      "Weight": 9,
-      "Min Group Count": 2,
-      "Max Group Count": 5
     }
   ],
   "Spawnable Cave Creatures": [

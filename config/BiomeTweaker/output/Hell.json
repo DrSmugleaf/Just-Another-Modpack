@@ -8,8 +8,6 @@
   "Height Variation": 0.2,
   "Top Block": "minecraft:grass",
   "Filler Block": "minecraft:dirt",
-  "Actual Filler Block": "minecraft:stone",
-  "Liquid Filler Block": "minecraft:water",
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",
@@ -64,6 +62,18 @@
       "Max Group Count": 3
     },
     {
+      "Entity Class": "thaumcraft.common.entities.monster.EntityFireBat",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "thaumcraft.common.entities.monster.EntityWisp",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
       "Entity Class": "mods.natura.entity.HeatscarSpider",
       "Weight": 10,
       "Min Group Count": 4,
@@ -80,18 +90,6 @@
       "Weight": 7,
       "Min Group Count": 4,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "thaumcraft.common.entities.monster.EntityFireBat",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "thaumcraft.common.entities.monster.EntityWisp",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
     }
   ],
   "Spawnable Water Creatures": [],

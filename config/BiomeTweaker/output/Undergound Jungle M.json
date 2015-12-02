@@ -1,6 +1,6 @@
 
 {
-  "ID": 228,
+  "ID": 244,
   "Name": "Undergound Jungle M",
   "Class": "net.minecraft.world.biome.BiomeGenMutated",
   "Color": 5491255,
@@ -8,8 +8,6 @@
   "Height Variation": 0.4,
   "Top Block": "minecraft:grass",
   "Filler Block": "minecraft:dirt",
-  "Actual Filler Block": "minecraft:stone",
-  "Liquid Filler Block": "minecraft:water",
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",

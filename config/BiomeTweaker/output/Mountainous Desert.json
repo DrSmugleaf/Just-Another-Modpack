@@ -1,6 +1,6 @@
 
 {
-  "ID": 45,
+  "ID": 83,
   "Name": "Mountainous Desert",
   "Class": "extrabiomes.module.summa.biome.BiomeMountainDesert",
   "Color": 16421912,
@@ -8,8 +8,6 @@
   "Height Variation": 0.5,
   "Top Block": "minecraft:sand",
   "Filler Block": "minecraft:sand",
-  "Actual Filler Block": "minecraft:stone",
-  "Liquid Filler Block": "minecraft:water",
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",
@@ -102,18 +100,6 @@
       "Weight": 10,
       "Min Group Count": 4,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "thehippomaster.aquaticabyss.CommonFish",
-      "Weight": 10,
-      "Min Group Count": 3,
-      "Max Group Count": 5
-    },
-    {
-      "Entity Class": "thehippomaster.aquaticabyss.Butterflyfish",
-      "Weight": 9,
-      "Min Group Count": 2,
-      "Max Group Count": 5
     }
   ],
   "Spawnable Cave Creatures": [

@@ -1,6 +1,6 @@
 
 {
-  "ID": 184,
+  "ID": 206,
   "Name": "Thornlands",
   "Class": "twilightforest.biomes.TFBiomeThornlands",
   "Color": 2241314,
@@ -8,8 +8,6 @@
   "Height Variation": 0.1,
   "Top Block": "TwilightForest:tile.TFDeadrock",
   "Filler Block": "TwilightForest:tile.TFDeadrock",
-  "Actual Filler Block": "minecraft:stone",
-  "Liquid Filler Block": "minecraft:water",
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",
@@ -21,7 +19,6 @@
   "Dictionary Types": [
     "DRY",
     "DEAD",
-    "PLAINS",
     "HILLS",
     "WASTELAND"
   ],
@@ -39,18 +36,6 @@
       "Weight": 1,
       "Min Group Count": 4,
       "Max Group Count": 20
-    },
-    {
-      "Entity Class": "tconstruct.world.entity.BlueSlime",
-      "Weight": 1,
-      "Min Group Count": 4,
-      "Max Group Count": 20
-    },
-    {
-      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlitz",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 4
     },
     {
       "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBasalz",

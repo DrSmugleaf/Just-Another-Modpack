@@ -1,6 +1,6 @@
 
 {
-  "ID": 175,
+  "ID": 197,
   "Name": "Twilight Highlands",
   "Class": "twilightforest.biomes.TFBiomeHighlands",
   "Color": 5596740,
@@ -8,8 +8,6 @@
   "Height Variation": 0.05,
   "Top Block": "minecraft:grass",
   "Filler Block": "minecraft:dirt",
-  "Actual Filler Block": "minecraft:stone",
-  "Liquid Filler Block": "minecraft:water",
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",
@@ -19,7 +17,6 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
     "CONIFEROUS",
     "FOREST",
     "MOUNTAIN"
@@ -82,12 +79,6 @@
     }
   ],
   "Spawnable Monsters": [
-    {
-      "Entity Class": "tconstruct.world.entity.BlueSlime",
-      "Weight": 1,
-      "Min Group Count": 4,
-      "Max Group Count": 20
-    },
     {
       "Entity Class": "tconstruct.world.entity.BlueSlime",
       "Weight": 1,

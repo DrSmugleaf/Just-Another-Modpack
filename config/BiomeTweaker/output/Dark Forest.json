@@ -1,6 +1,6 @@
 
 {
-  "ID": 169,
+  "ID": 191,
   "Name": "Dark Forest",
   "Class": "twilightforest.biomes.TFBiomeDarkForest",
   "Color": 13073,
@@ -8,8 +8,6 @@
   "Height Variation": 0.05,
   "Top Block": "minecraft:grass",
   "Filler Block": "minecraft:dirt",
-  "Actual Filler Block": "minecraft:stone",
-  "Liquid Filler Block": "minecraft:water",
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",

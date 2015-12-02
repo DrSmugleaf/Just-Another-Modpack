@@ -1,0 +1,32 @@
+Agricraft:
+	Resource crops.
+
+Bibliocraft:
+	Enchanted plates.
+
+Extra Utilities:
+	Ender marker.
+	Ender quarry.
+	Ender quarry upgrades.
+	Generators.
+	Golden bag of holding.
+
+Mystcraft:
+	Crafting binder.
+	Desk.
+	Deskback.
+	Folder.
+	Portfolio.
+
+OpenBlocks:
+	Last stand enchantment.
+
+Railcraft:
+	Passive anchor.
+	World anchor.
+
+Thaumic Tinkerer:
+	Imbued fire.
+
+Tinkers' Construct:
+	Ore bushes.

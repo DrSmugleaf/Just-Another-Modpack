@@ -12,6 +12,7 @@
     "breakWhitelist": [
       "OpenBlocks:grave"
     ],
+    "dimensionBlacklist": [],
     "forcedChunkSecurity": -1,
     "forcedExplosions": 1,
     "maxClaimsAdmin": 1000,
@@ -19,13 +20,16 @@
   },
   "commands": {
     "admin_backup": true,
+    "admin_edit_chunks": true,
     "admin_edit_config": true,
     "admin_invsee": true,
-    "admin_unclaim": true,
     "admin_warps": true,
     "admin_world_border": true,
     "back": true,
-    "back_only_once": true,
+    "crossDimHomes": true,
+    "home": true,
+    "maxHomesAdmin": 100,
+    "maxHomesPlayer": 0,
     "name_cmd_admin": "admin",
     "spawn": true,
     "tplast": true,

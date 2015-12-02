@@ -3,10 +3,6 @@
 import mods.nei.NEI;
 
 #Remove other mods' backpacks
-##Project Red
-recipes.remove(<ProjRed|Exploration:projectred.exploration.backpack:*>);
-NEI.hide(<ProjRed|Exploration:projectred.exploration.backpack:*>);
-
 ##Thaumcraft
 mods.thaumcraft.Research.orphanResearch("ICHOR_POUCH");
 mods.thaumcraft.Research.removeResearch("ICHOR_POUCH");

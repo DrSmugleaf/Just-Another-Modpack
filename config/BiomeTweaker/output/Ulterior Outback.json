@@ -1,6 +1,6 @@
 
 {
-  "ID": 104,
+  "ID": 115,
   "Name": "Ulterior Outback",
   "Class": "erebus.world.biomes.BiomeUlteriorOutback",
   "Color": 12695144,
@@ -8,8 +8,6 @@
   "Height Variation": 0.2,
   "Top Block": "minecraft:sand",
   "Filler Block": "minecraft:dirt",
-  "Actual Filler Block": "minecraft:stone",
-  "Liquid Filler Block": "minecraft:water",
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",

@@ -1,330 +1,673 @@
-Config Changes
+
+Just Another Modpack
+List of config changes
 
 Aether II:
-Disabled Aether's menu.
-Disabled Continuum Orb.
+	aether/Aether II.cfg:
+	Changed the Aether Biome ID to 215. Default: 237 (I:"Aether Biome ID"=215)
+	Changed the Dungeon Biome ID to 216. Default: 200 (I:"Dungeon Biome ID"=216)
+	Disabled Aether's menu system. Default: true (B:"Menu Configuration"=false)
 
-agricraft/Agricraft:
-Disabled resource crops.
-Disabled weeds.
-Disabled weeds overtaking other plants.
+Agricraft:
+	agricraft/Configuration.cfg:
+	Disabled resource crops. Default: true (B:"Resource Crops"=false)
+	Disabled weeds. Default: true (B:"Enable weeds"=false)
+	Disabled weeds overtaking plants. Default: true (B:"Weeds can overtake plants"=false)
 
 Armourer's Workshop:
-Disabled update check.
+	armourersWorkshop.cfg:
+	Disabled update check. Default: true (B:checkForUpdates=false)
 
-Artifice:
-Set worldgen dimension blacklist to -1, 0 and 1. (S:"Dimension Blacklist"=-1,0,1)
+Aura Cascade:
+	aura.cfg:
+	Disabled giving Encyclopedia Aura automatically. Default: true (B:"Give Encyclopedia Aura automatically"=false)
 
-Aura:
-Disabled giving the encyclopedia aura automatically. (B:"Give Encyclopedia Aura automatically"=false)
+Automagy:
+	Automagy.cfg:
+	Disabled update check. Default: true (B:version_checking=false)
 
 Backpacks:
-Maximum of 1 Backpack in inventory.
+	Backpack.cfg:
+	Decreased maximum backpack amount in a single player's inventory to 1. Default: 0 (I:maxBackpackAmount=1)
 
-battlegear2:
-Disabled GUI buttons. (B:"Enable GUI Buttons"=false)
-Disabled GUI keys. (B:"Enable GUI Keys"=false)
+Better Dungeons:
+	chocolateQuest.cfg:
+	Changed Mining Prevention potion ID to 57. Default: 31 (I:potionMinePreventionID=57)
+	Increased dungeon separation to 15 chunks. Default: 10 (I:dungeonSeparation=15)
 
 BiblioCraft:
-Disabled update check.
-Enabled empty books being able to be placed on bookcases. (B:AllowEmptyBooks=true)
-Increased the cost of copying enchanted books to 2147483647. (I:EnchantmentCostMultiplyer=2147483647)
-Lowered the maximum uses of an enchanted plate to 1. (I:MaxEnchantedPlateUses=1)
+	BiblioCraft.cfg:
+	Enabled empty books on bookcases. Default: false (B:AllowEmptyBooks=true)
+	Decreased enchanted plate uses to 1. Default: 3 (I:MaxEnchantedPlateUses=1)
+	Disabled update check. Default: true (B:CheckForUpdates=false)
+	Increased cost multiplier of copying enchanted books to 214783647. Default: 10 (I:EnchantmentCostMultiplyer=2147483647)
+
+Blood Magic:
+	AWWayofTime.cfg:
+	Added Thaumcraft's Aura Nodes to the teleposer blacklist. Default: N/A (S:Blacklist <Thaumcraft:blockAiry>)
+	Changed Amphibian potion ID to 200. Default: 116 (I:Amphibian=200)
+	Changed Boost potion ID to 201. Default 101 (I:Boost=201)
+	Changed Deaf potion ID to 203. Default: 113 (I:Deaf=203)
+	Changed Demon Cloak potion ID to 204. Default: 115 (I:DemonCloak=204)
+	Changed Drowning potion ID to 205. Default: 100 (I:Drowning=205)
+	Changed Feather Fall potion ID to 206. Default: 114 (I:FeatherFall=206)
+	Changed Fire Fuse 207 potion ID to 207. Default: 109 (I:FireFuse=207)
+	Changed Flame Cloak potion ID to 208. Default: 106 (I:FlameCloak=208)
+	Changed Flight potion ID to 209. Default: 104 (I:Flight=209)
+	Changed Heavy Heart potion ID to 210. Default: 108 (I:HeavyHeart=210)
+	Changed Ice Cloak potion ID to 211. Default: 107 (I:IceCloak=211)
+	Changed Inhibit potion ID to 212. Default: 103 (I:Inhibit=212)
+	Changed Planar Binding potion ID to 213. Default: 110 (I:PlanarBinding=213)
+	Changed Projectile Protection potion ID to 214. Default: 102 (I:ProjProt=214)
+	Changed Reciprocation potion ID to 215. Default: 105 (I:Reciprocation=215)
+	Changed Soul Fray potion ID to 216. Default: 111 (I:SoulFray=216)
+	Changed Soul Harden potion ID to 217. Default: 112 (I:SoulHarden=217)
+	Disabled respawning with Soul Fray to prevent a crash. Default: true (B:RespawnWithDebuff=false)
+	Disabled Soul Fray alchemy potion to prevent a crash. Default: false (B:"Soul Fray"=true)
 
 Botania:
-Enabled alternate flower textures. (B:flowerTextures.alt=true)
-Disabled Hand of Ender's ability to open other players' enderchests. (B:enderPickpocket.enabled=false)
-Disabled update check.
+	Botania.cfg:
+	Changed Allure potion ID to 100. Default: 95 (I:allure=100)
+	Changed Bloodthirst potion ID to 101. Default: 94 (I:bloodthirst=101)
+	Changed Clear potion ID to 102. Default: 96 (I:clear=102)
+	Changed Emptiness potion ID to 103. Default: 93 (I:emptiness=103)
+	Changed Feather Feet potion ID to 104. Default: 92 (I:featherFeet=104)
+	Changed Soul Cross potion ID to 105. Default: 91 (I:soulCross=105)
+	Disabled Hand of Ender's ability to pickpocket other's ender chests. Default: true (B:enderPickpocket.enabled=false)
+	Disabled update check. Default: true (B:versionChecking.enabled=false)
+	Enabled alternate flower textures. Default: false (B:flowerTextures.alt=true)
 
 BspkrsCore:
-Disabled update check.
+	bspkrsCore.cfg:
+	Disabled update check. Default: true (B:allowUpdateCheck=false)
 
-buildcraft/main:
-Disabled oil dragging down entities. (B:oilIsDense=false)
-Disabled showing all BC facades in Creative/NEI. (B:facadeShowAllInCreative=false)
-Disabled update check. (B:updateCheck=false)
-Disabled water springs. (B:generateWaterSprings=false)
-Lowered I:builderMaxIterationsPerItemFactor to 512. (Default=1024)
-Lowered I:markerRange to 32. (Default=64)
+Buildcraft:
+	buildcraft/main.cfg:
+	Changed the Oil Desert Biome ID to 168. Default: 127 (I:biomeOilDesert=168)
+	Changed the Oil Ocean Biome ID to 169. Default: 126 (I:biomeOilOcean=169)
+	Decreased builder max iterations per item factor to 512. Default: 1024 (I:builderMaxIterationsPerItemFactor=512)
+	Decreased maximum marker range to 32. Default: 64 (I:markerRange=32)
+	Disabled oil burning. Default: true (B:oilCanBurn=false)
+	Disabled oil dragging down entities. Default: true (B:oilIsDense=false)
+	Disabled showing all facades on creative/NEI. Default: true (B:facadeShowAllInCreative=false)
+	Disabled update check. Default: true (B:updateCheck=false)
+	Disabled water spring generation. Default: true (:generateWaterSprings=false)
 
-CarpentersBlocks:
-Disabled block ownership. (B:"Enable Ownership"=false)
-
-CFM (MrCrayfishFurnitureMod):
-Disabled welcome message.
-Disabled dishwasher's ability to repair tools and weapons.
-Disabled computer's ability to buy items, except for the recipe book.
-Disabled printer's ability to print enchanted books.
-Disabled washing machine's ability to repair armor.
-Disabled RecipeAPI debug.
+Carpenter's Blocks:
+	CarpentersBlocks.cfg:
+	Disabled block ownership. Default: true (B:"Enable Ownership"=false)
 
 ChickenChunks:
-Enabled Ops being able to access others' chunkloaders. (op-interact=true)
-Disabled offline chunkloading. (allowoffline{ DEFAULT=false OP=false })
-Disabled update check. (checkUpdates=false)
-Lowered per-player chunk limit to 100. (players { DEFAULT=100 OP=100 })
+	ChickenChunks.cfg:
+	Decreased OPs chunkloading limit to 100 chunks. Default: 5000 (OP=5000)
+	Decreased player chunkloading limit to 100 chunks. Default: 5000 (DEFAULT=100)
+	Disabled update check. Default: true (checkUpdates=false)
+	Enabled OPs being able to alter other player's chunkloaders. Default: false (op-interact=true)
+	Enabled OPs having to be logged in for their chunkloaders to work Default: true (OP=false)
+	Enabled players having to be logged in for their chunkloaders to work. Default: true (DEFAULT=false)
 
-chocobo_config:
-Disabled the chocopedia being able to spawn in dungeons. (chocopediaInDungeons = false)
-
-chocolateQuest:
-Increased dungeon chunk separation to 50. (Default: 10) (I:dungeonSeparation=25)
+ChocoCraft:
+	chocobo_config.txt:
+	Disabled chocopedia spawning in dungeon chests. Default: true (chocopediaInDungeons = false)
+	
+Climate Control:
+	climatecontrol.cfg:
+	Decreased Biome Size to 3. Default: 4 (I:"Biome Size"=3)
+	Enabled quarter climate zone sizes. Default: false (B:"Quarter Zone Size"=true)
+	
+	ClimateControl/EBXLInCC.cfg:
+	Enabled ExtraBiomesXL biomes. Default: false (B:EBXLBiomesOn=true)
+	
+	ClimateControl/ThaumcraftInCC.cfg:
+	Enabled Thaumcraft biomes. Default: false (B:ThaumcraftBiomesOn=true)
 
 CodeChickenCore:
-Disabled update check.
+	CodeChickenCore.cfg:
+	Disabled update check. (checkUpdates=false)
 
-cofh/core/common:
-Disabled named mobs death messages.
-Disabled update check.
-Enabled Ops being able to access secure blocks.
-Enabled flat bedrock. (B:FlatBedrock=true)
-Enabled flat bedrock oregen. (B:RetroactiveFlatBedrock=true)
-Enabled ore retrogen. (B:RetroactiveOreGeneration=true)
+CoFH:
+	cofh/core/common.cfg:
+	Enabled flat bedrock. Default: false (B:FlatBedrock=true)
+	Enabled OPs being able to access secure blocks. Default: false (B:OpsCanAccessSecureBlocks=true)
+	Enabled replacing vanilla ore generation. Default: false (B:ReplaceVanillaGeneration=true)
+	Enabled retroactive flat bedrock. Default: N/A (B:RetroactiveFlatBedrock=true)
+	Enabled retroactive ore generation. Default: N/A (B:RetroactiveOreGeneration=true)
+	Disabled generic death message. Default: true (B:EnableGenericDeathMessage=false)
+	Disabled update check. Default: true (B:EnableUpdateNotifications=false)
+	Set flat bedrock layers to 1. Default: N/A (I:FlatBedrockLayers=1)
+	
+	cofh/world:
+	Changed ore generation for Aether II, Thermal Foundation, Tinkers' Construct and Vanilla. Default: N/A.
 
-cofh/world:
-Changed the oregen.
-Disabled Aether II's continuum ore from spawning.
+Electrical Age:
+	Eln.cfg:
+	Disabled cinnabar generation. Default: true (B:cinnabar=false)
+	Disabled copper generation. Default: true (B:cooper=false)
+	Disabled lead generation. Default: true (B:tin=false)
+	Disabled update check. Default: true (B:versionCheckEnable=false)
 
-endercore/endercore:
-Increased anvil max level to 100. (I:anvilMaxLevel=100)
-EnderStorage:
-Disabled update check.
+EnderCore:
+	endercore/endercore.cfg:
+	Increased anvil max level to 100. Default: 40 (I:anvilMaxLevel=100)
 
-EnderStorage:
-Disabled disabling the vanilla ender chest. (disable-vanilla=false)
-Increased chest size to 6x9. (item.storage-size=2)
+Ender Storage:
+	EnderStorage.cfg:
+	Disabled disabling the vanilla ender chest. Default: true (disable-vanilla=false)
+	Disabled update check. Default: true (checkUpdates=false)
+	Increased Ender Chest size to 6x9. Default: 1 (item.storage-size=2)
 
-erebus:
-Enabled aluminium generation. (B:"Generate aluminium"=true)
-Enabled copper generation. (B:"Generate copper"=true)
-Enabled lead generation. (B:"Generate lead"=true)
-Enabled silver generation. (B:"Generate silver"=true)
-Enabled tin generation. (B:"Generate tin"=true)
-Disabled Block O' Bones on death. (B:"Block O' Bones Inventory Save"=false)
+Erebus:
+	erebus.cfg:
+	Changed Elysian Fields biome ID to 110. Default: 103 (I:"Elysian Fields"=110)
+	Changed Fields - Forest biome ID to 111. Default: 107 (I:"Fields - Forest"=111)
+	Changed Fungal Forest biome ID to 112. Default: 105 (I:"Fungal Forest"=112)
+	Changed Submerged Swamp biome ID to 113. Default: 106 (I:"Submerged Swamp"=113)
+	Changed Subterranean Savannah biome ID to 114. Default: 102 (I:"Subterranean Savannah"=114)
+	Changed Ulterior Outback biome ID to 115. Default: 104 (I:"Ulterior Outback"=115)
+	Changed Underground Jungle biome ID to 116. Default: 100 (I:"Underground Jungle"=116)
+	Changed Volcanic Desert biome ID to 117. Default: 101 (I:"Volcanic Desert"=117)
+	Disabled Block O' Bones inventory save. Default: true (B:"Block O' Bones Inventory Save"=false)
+	Enabled aluminium generation. Default: false (B:"Generate aluminium"=true)
+	Enabled copper generation. Default: false (B:"Generate copper"=true)
+	Enabled lead generation. Default: false (B:"Generate lead"=true)
+	Enabled silver generation. Default: false (B:"Generate silver"=true)
+	Enabled tin generation. Default: false (B:"Generate tin"=true)
 
-ExtraCells 2:
-Disabled IGW integration.
+ExtraBiomesXL:
+	extrabiomes.cfg:
+	Changed Alpine biome ID to 70. Default: 60 (I:alpine.id=70)
+	Changed Autumn Woods biome ID to 71. Default: 61 (I:autumnwoods.id=71)
+	Changed Birch Forest biome ID to 72. Default: 62 (I:birchforest.id=72)
+	Changed Extreme Jungle biome ID to 73. Default: 63 (I:extremejungle.id=73)
+	Changed Forested Hills biome ID to 74. Default: 64 (I:forestedhills.id=74)
+	Changed Forested Island biome ID to 75. Default: 65 (I:forestedisland.id=75)
+	Changed Glacier biome ID to 76. Default: 66 (I:glacier.id=76)
+	Changed Green Hills biome ID to 77. Default: 67 (I:greenhills.id=77)
+	Changed Green Swamp biome ID to 78. Default: 40 (I:greenswamp.id=78)
+	Changed Ice Wasteland biome ID to 79. Default: 41 (I:icewasteland.id=79)
+	Changed Marsh biome ID to 80. Default: -1 (I:marsh.id=80)
+	Changed Meadow biome ID to 81. Default: 43 (I:meadow.id=81)
+	Changed Mini Jungle biome ID to 82. Default: 44 (I:minijungle.id=82)
+	Changed Mountain Desert biome ID to 83. Default: 45 (I:mountaindesert.id=83)
+	Changed Mountain Ridge biome ID to 84. Default: 46 (I:mountainridge.id=84)
+	Changed Mountain Taiga biome ID to 85. Default: 47 (I:mountaintaiga.id=85)
+	Changed Pine Forest biome ID to 86. Default: 48 (I:pineforest.id=86)
+	Changed Rainforest biome ID to 87. Default: 49 (I:rainforest.id=87)
+	Changed Redwood biome id to 88. Default: 50 (I:redwoodforest.id=88)
+	Changed Redwood Lush biome ID to 89. Default: 51 (I:redwoodlush.id=89)
+	Changed Savanna biome ID to 90. Default: 52 (I:savanna.id=90)
+	Changed Shrubland biome ID to 91. Default: 53 (I:shrubland.id=91)
+	CHanged Snowy Forest biome ID to 92. Default: 54 (I:snowyforest.id=92)
+	Changed Snowy Rainforest biome ID to 93. Default: 55 (I:snowyrainforest.id=93)
+	Changed Temperate Rainforest biome ID to 94. Default: 56 (I:temporaterainforest.id=94)
+	Changed Tundra biome ID to 95. Default: 57 (I:tundra.id=95)
+	Changed Wasteland biome ID to 96. Default: 58 (I:wasteland.id=96)
+	Changed Woodlands biome ID to 97. Default: 59 (I:woodlands.id=97)
 
 ExtraTiC:
-Disabled Extra Utilities integration. (B:extraUtils=false)
+	ExtraTiC.cfg:
+	Disabled Extra Utilities mod support. Default: true (B:extraUtils=false)
 
-ExtraUtilities:
-Disabled generator recipe. (B:disableGeneratorRecipe=true)
-Disabled golden bag of holding recipe. (B:disableGoldenBagRecipe=true)
-Disabled generator. (B:GeneratorEnabled=false)
-Disabled generatorx8. (B:Generator8Enabled=false)
-Disabled generatorx64. (B:Generator64Enabled=false)
-Disabled golden bag of holding. (B:GoldenBagEnabled=false)
-Disabled magical wood in tinker's construct. (I:tcon_magical_wood_id=0)
+Extra Utilities:
+	ExtraUtilities.cfg:
+	Changed Tinkers' Construct magical wood ID to 0. Default: 316 (I:tcon_magical_wood_id=0)
+	Disabled Ender Marker. Default: true (B:EnderMarkerEnabled=false)
+	Disabled Ender Quarry. Default: true (B:EnderQuarryEnabled=false)
+	Disabled Ender Quarry Upgrades. Default: true (:EnderQuarryUpgradeEnabled=false)
+	Disabled Ender Quarry Upgrade recipes. Default: false (B:disableEnderQuarryUpgradesRecipes=true)
+	Disabled Generatorx64. Default: true (B:Generator64Enabled=false)
+	Disabled Generatorx8. Default: true (B:Generator8Enabled=false)
+	Disabled Generators. Default: true (B:GeneratorEnabled=false)
+	Disabled Generator recipes. Default: false (B:disableGeneratorRecipe=true)
+	Disabled Golden Bag of Holding. Default: true (B:GoldenBagEnabled=false)
+	Disabled Golden Bag of Holding recipes. Default: false (B:disableGoldenBagRecipe=true)
 
-forestry/common:
-Disabled copper from generating. (B:copper=false)
-Disabled tin from generating. (B:tin=false)
+Forbidden Magic:
+	ForbiddenMagic.cfg:
+	Changed Capitalist enchantment ID to 220. Default: 68 (I:Capitalist=220)
+	Changed Consuming enchantment ID to 221. Default: 69 (I:Consuming=221)
+	Changed Corrupting enchantment ID to 222. Default: 71 (I:Corrupting=222)
+	Changed Educational enchantment ID to 223. Default: 70 (I:Educational=223)
+	Changed Fiery Core enchantment ID to 224. Default: 66 (I:"Fiery Core"=224)
+	Changed Impact enchantment ID to 225. Default: 73 (I:Impact=225)
+	Changed Voidtouched enchantment ID to 226. Default: 72 (I:Voidtouched=226)
+	Changed Wrath enchantment ID to 227. Default: 67 (I:Wrath=227)
+
+Forestry:
+	forestry/common.cfg:
+	Disabled copper generation. Default: true (B:copper=false)
+	Disabled tin generation. Default: true (B:tin=false)
 
 Forge:
-Disabled spawn location randomizer. (B:spawnHasFuzz=false)
+	forge.cfg:
+	Disabled spawn fuzz. Default: true (B:spawnHasFuzz=false)
 
-local/ftbu:
-Enabled auto export inv on logout. ("autoExportInvOnLogout": true,)
-Disabled starting items.
-Increased backups to keep to 25. (Default: 12) ("backupsToKeep": 25,)
-Lowered backup interval to 0.5. (Default: 2.0) ("backupTimer": 0.5,)
-Lowered player chunk claim limit to 50. (Default: 500) ("maxClaimsPlayer": 50)
+Fossils and Archeology Revival:
+	fossil.cfg:
+	Changed Layer of Darkness biome ID to 220. Default: 128 (I:"Layer of Darkness ID:"=220)
+	Changed Treasure biome ID to 221. Default: 127 (I:"Treasure ID:"=221)
+	Changed Ancient Treasure Room dimension ID to -57. Default: -34 (I:"Ancient Treasure Room ID:"=-57)
+	Changed Archeology enchantment ID to 41. Default: 91 (I:archeology=41)
+	Changed Paleontology enchantment ID to 42. Default: 90 (I:paleontology=42)
+	Disabled login message. Default: true (B:Display_Login_Message=false)
 
-Galacticraft/asteroids:
-Lowered maximum Astro Miner amount to 0.
+Galacticraft:
+	Galacticraft/asteroids.conf:
+	Decreased amount of maximum Astro Miners to 0. Default: 6. (I:maximumAstroMiners=0)
+	
+	Galacticraft/core.conf:
+	Disabled aluminum ore generation. Default: true (B:"Enable Aluminum Ore Gen"=false)
+	Disabled copper ore generation. Default: true (B:"Enable Copper Ore Gen"=false)
+	Disabled meteor block damage. Default: true (B:"Meteor Block Damage Enabled"=false)
+	Disabled tin ore generation. Default: true (B:"Enable Tin Ore Gen"=false)
+	Disabled update check. (B:"Disable Update Check"=true)
+	Enabled forcing overworld respawn. Default: false (B:"Force Overworld Spawn"=true)
+	
+	Galacticraft/power-GC3.conf:
+	Enabled RF energy display instead of gJ. Default: false (B:"Show Galacticraft machines energy in RF instead of gJ?"=true)
 
-Galacticraft/core:
-Disabled copper from generating. (B:"Enable Copper Ore Gen"=false)
-Disabled tin from generating. (B:"Enable Tin Ore Gen"=false)
-Disabled meteors destroying blocks. (B:"Meteor Block Damage Enabled"=false)
-Disabled update check.
-Forced overworld spawn. (B:"Force Overworld Spawn"=true)
+Gany's End:
+	GanysMods/ganysend.cfg:
+	Disabled update check. Default: true (B:shouldDoVersionCheck=false)
 
-Galacticraft/power-GC3:
-Set energy display to RF.
+Gany's Nether:
+	GanysMods/ganysnether.cfg:
+	Disabled update check. Default: true (B:shouldDoVersionCheck=false)
 
-GanysMods/ganysend:
-Disabled update check. (B:shouldDoVersionCheck=false)
+Gany's Surface:
+	GanysMods/ganyssurface.cfg:
+	Disabled 3D rendering for vanilla items. Default: true (B:"Enable 3D rendering for vanilla items"=false)
+	Disabled no recipe conflicts for vanilla crafting tables. Default: true (B:"Enable No Recipe Conflict for only the vanilla Crafting Tables"=false)
+	Disabled update check. (B:shouldDoVersionCheck=false)
 
-GanysMods/ganysnether:
-Disabled update check. (B:shouldDoVersionCheck=false)
-
-GanysMods/ganyssurface:
-Disabled 3D rendering for vanilla items. (B:"Enable 3D rendering for vanilla items"=false)
-Disabled no recipe conflict for the vanilla crafting tables (B:"Enable No Recipe Conflict for only the vanilla Crafting Tables"=false)
-Disabled update check. (B:shouldDoVersionCheck=false)
-
-Guide-API/Guide-API:
-Disabled logging. (B:enableLogging=false)
+Guide-API:
+	Guide-API/Guide-API.cfg:
+	Disabled logging to console. Default: true (B:enableLogging=false)
 
 Hardcore Ender Expansion:
-Enabled overpowered mobs. (B:overpoweredMobs=false)
-Disabled Ender Goo battling water. (B:gooBattlesWater=false)
-Disabled HEE-ORB.
-Disabled update check.
+	HardcoreEnderExpansion.cfg:
+	Disabled crashing on broken recipe. Default: false (B:overrideRemoveBrokenRecipes=true)
+	Disabled goo battling water. Default: true (B:gooBattlesWater=false)
+	Disabled update check. Default: true (B:enableUpdateNotifications=false)
+	Enabled overpowered mobs. Default: false (B:overpoweredMobs=true)
 
-hqm/hqmconfig:
-Disabled status message. (B:NoHardcoreMessage=false)
-Enabled server quest sync. (B:ServerSync=true)
-
-Hats:
-Disabled first join message. (I:firstJoinMessage=0)
-
-Headcrumbs:
-Changed mob prefix to [HEADCRUMBS]. (S:prefix=[HEADCRUMBS] )
-Disabled headcrumbs mobs from being able to open doors. (B:"Allow celebrity mobs to open doors"=false)
+Hardcore Questing Mode:
+	hqm/hqmconfig.cfg:
+	Enabled no hardcore questing mode status alert. Default: true (B:NoHardcoreMessage=false)
+	Enabled server quest sync. Default: false (B:ServerSync=true)
 
 iChunUtil:
-Disabled update check.
+	iChunUtil.cfg:
+	Disabled update check. Default: N/A (I:versionNotificationFrequency=3)
 
-IguanaTinkerTweaks/main:
-Changed the levels that you get bonuses and modifiers slots at.
-Disabled disabling non T-Construct tools. (B:disableRegularTools=false)
-Disabled special diamond usage. (B:diamondRequired=false)
-Disabled stone parts only being able to be used for casts. (B:disableStoneTools=false)
-Increased the durability of tools to 100. (I:durabilityPercentage=100)
+Iguana Tinker Tweaks:
+	IguanaTinkwerTweaks/main.cfg:
+	Changed extra modifiers to levels 3, 6, 9, 12, 15. Default: 2, 4, 6 (I:ModifiersAtLevels < 3 6 9 12 15 >)
+	Changed tool bonuses at levels to 15, 20, 25, 30. Default: 2, 3, 4, 5, 6 (I:BonusesAtLevels < 15 20 25 30 >)
+	Disabled disabling regular tools. Default: true (B:disableRegularTools=false)
+	Disabled disabling stone tools. Default: true (B:disableStoneTools=false)
+	Disabled modifying the diamond and emerald modifiers. Default: true (B:diamondRequired=false)
+	Increased max tool level to 30. Default: 6 (I:maxToolLevel=30)
+	Increased tool durability percentage to 100. Default: 80 (I:durabilityPercentage=100)
+	
+	IguanaTinkerTweaks/Modules.cfg:
+	Disabled harvest level tweaks. Default: true (B:HarvestLevelTweaks=false)
 
-IguanaTinkerTweaks/Modules:
-Disabled tiered harvesting levels. (B:HarvestLevelTweaks=false)
+Immersive Engineering:
+	ImmersiveEngineering.cfg:
+	Disabled bauxite generation. Default: 4 (0)
+	Disabled copper generation. Default: 8 (0)
+	Disabled lead generation. Default: 6 (0)
+	Disabled nickel generation. Default: 6 (0)
+	Disabled silver generation. Default: 8 (0)
 
-IGWMod:
-Disabled missing mod notification. (B:enable_missing_notification=false)
-
-ImmersiveEngineering:
-Disabled all the oregen.
-
-LogisticsPipes:
-Disabled update check.
+Logistics Pipes:
+	LogisticsPipes.cfg:
+	Disabled update check. Default: true (B:checkForUpdates=false)
 
 LunatriusCore:
-Disabled update check.
+	LunatriusCore.cfg:
+	Disabled update check. Default: true (B:checkForUpdates=false)
 
-MagicBees:
-Disabled update check.
-
-mariculture/world-generation:
-Disabled bauxite generation. (B:"Bauxite > Generation"=false)
-Disabled copper generation. (B:"Copper > Generation"=false)
-
-MCA:
-Disabled giving the crystal ball on spawn. (B:"Give crystal ball"=false)
-Disabled Patreon button. (B:"Disable patreon button"=true)
-Disabled update check. (B:"Allow update checking"=false)
-Set the villager prefix to [MCA]. (S:"Villager chat prefix"=[MCA])
-
-MineTweaker/ModTweaker:
-Disabled Artifice's nuclear battery.
-Disabled Aether II's continuum ore and continuum orb on NEI.
-Disabled other backpacks in favor of the Backpacks' mod.
-
-Modstats:
-Enabled log only mode. (B:LogOnly=true)
-Disabled update check. (B:AllowUpdates=false)
-
-MUD:
-Disabled update check. (B:"Update Check Enabled"=false)
-
-Mystcraft:
-Disabled analyzing world. (B:useconfigs=true)
-Disabled instability. (B:global.enabled=false)
-Disabled respawning in ages. (B:respawning.respawnInAges=false)
-
-NEI:
-Disabled update check.
-
-neiintegration:
-Enabled showing item burn times. (B:"Burn Time"=true)
-Enabled showing the internal name of items. (B:"Internal Name"=true)
-Enabled showing the internal name of items only when holding shift. (B:"Internal Name Shift"=true)
-Enabled showing the ore dictionary names of items. (B:"Ore Dictionary Names"=true)
-Enabled showing the ore dictionary names of items only when holding shift. (B:"Ore Dictionary Names Shift"=true)
-
-NoNausea:
-Set mode to 0, no effect at all. (I:Mode=0)
+Magic Bees:
+	MagicBees.cfg:
+	Disabled update check. Default: false (B:disableVersionNotification=true)
 
 MapWriter:
-Moved the map to the bottom right.
+	MapWriter.cfg:
+	Disabled large map. Default: 1 (I:enabled=0)
+	Disabled small map. Default: 1 (I:enabled=0)
 
 Mariculture:
-Removed spawning with a guide book. (B:"Spawn Books on First Action"=false)
+	mariculture/general-stuff.cfg:
+	Disabled spawning books on first action. Default: true (B:"Spawn Books on First Action"=false)
+	
+	mariculture/world-generation.cfg:
+	Disabled bauxite generation. Default: true (B:"Bauxite > Generation"=false)
+	Disabled copper generation. Default: true (B:"Copper > Generation"=false)
+
+Mine & Blade: Battlegear 2:
+	battlegear2.cfg:
+	Disabled GUI buttons. Default: true (B:"Enable GUI Buttons"=false)
+	Disabled skeletons spawning with explosive arrows. Default: 0.1 (D:explosive=0.0)
+	Disabled skeletons spawning with flame arrows. Default: 0.1 (D:flame=0.0)
+
+Minecraft Comes Alive:
+	MCA.cfg:
+	Changed Villager chat prefix to [MCA]. Default: N/A (S:"Villager chat prefix"=[MCA])
+	Disabled giving the crystal ball to new players. Default: true (B:"Give crystal ball"=false)
+	Disabled mobs attacking villagers to prevent a crash. Default: true (B:"Allow mob attacks"=false)
+	Disabled patreon button. Default: false (B:"Disable patreon button"=true)
+	Disabled update check. Default: true (B:"Allow update checking"=false)
+	Enabled logging villager deaths. Default: false (B:"Log villager deaths"=true)
+	Enabled shift-right click for marriage menu. Default: false (B:"Shift-click for player marriage menu"=true)
+
+MrCrayfish's Furniture Mod:
+	cfm.cfg:
+	Disabled displaying welcome message. Default: true (B:display=false)
+	Disabled printing enchanted books. Default: true (B:printer-1=false)
+	Disabled purchasing hardened clay. Default: true (B:minebay-1=false)
+	Disabled purchasing skeleton skull. Default: true (B:minebay-2=false)
+	Disabled purchasing saddles. Default: true (B:minebay-3=false)
+	Disabled purchasing horse spawn egg. Default: true (B:minebay-4=false)
+	Disabled purchasing diamond horse armour. Default: true (B:minebay-5=false)
+	Disabled purchasing experience bottle. Default: true (B:minebay-6=false)
+	Disabled purchasing christmas firework. Default: true (B:minebay-7=false)
+	Disabled purchasing silk touch book. Default: true (B:minebay-8=false)
+	Disabled purchasing night vision potion. Default: true (B:minebay-9=false)
+	Disabled RecipeAPI debug. Default: true (B:recipe-api-debug=false)
+	Disabled repairing bows. Default: true (B:dishwasher-1=false)
+	Disabled repairing stone hoes. Default: true (B:dishwasher-10=false)
+	Disabled repairing stone swords. Default: true (B:dishwasher-11=false)
+	Disabled repairing iron pickaxe. Default: true (B:dishwasher-12=false)
+	Disabled repairing iron axe. Default: true (B:dishwasher-13=false)
+	Disabled repairing iron shovel. Default: true (B:dishwasher-14=false)
+	Disabled repairing iron hoe. Default: true (B:dishwasher-15=false)
+	Disabled repairing iron sword. Default: true (B:dishwasher-16=false)
+	Disabled repairing golden pickaxe. Default: true (B:dishwasher-17=false)
+	Disabled repairing golden axe. Default: true (B:dishwasher-18=false)
+	Disabled repairing golden shovel. Default: true (B:dishwasher-19=false)
+	Disabled repairing wooden pickaxe. Default: true (B:dishwasher-2=false)
+	Disabled repairing golden hoe. Default: true (B:dishwasher-20=false)
+	Disabled repairing golden sword. Default: true (B:dishwasher-21=false)
+	Disabled repairing diamond pickaxe. Default: true (B:dishwasher-22=false)
+	Disabled repairing diamond axe. Default: true (B:dishwasher-23=false)
+	Disabled repairing diamond shovel. Default: true (B:dishwasher-24=false)
+	Disabled repairing dimaond hoe. Default: true (B:dishwasher-25=false)
+	Disabled repairing diamond sword. Default: true (B:dishwasher-26=false)
+	Disabled repairing wooden axe. Default: true (B:dishwasher-3=false)
+	Disabled repairing wooden shovel. Default: true (B:dishwasher-4=false)
+	Disabled repairing wooden hoe. Default: true (B:dishwasher-5=false)
+	Disabled repairing wooden sword. Default: true (B:dishwasher-6=false)
+	Disabled repairing stone pickaxe. Default: true (B:dishwasher-7=false)
+	Disabled repairing stone axe. Default: true (B:dishwasher-8=false)
+	Disabled repairing stone shovel. Default: true (B:dishwasher-9=false)
+	Disabled repairing leather helmet. Default: true (B:washing-machine-1=false)
+	Disabled repairing iron chestplate. Default: true (B:washing-machine-10=false)
+	Disabled repairing iron leggings. Default: true (B:washing-machine-11=false)
+	Disabled repairing iron boots. Default: true (B:washing-machine-12=false)
+	Disabled repairing golden helmet. Default: true (B:washing-machine-13=false)
+	Disabled repairing golden chestplate. Default: true (B:washing-machine-14=false)
+	Disabled repairing golden leggings. Default: true (B:washing-machine-15=false)
+	Disabled repairing golden boots. Default: true (B:washing-machine-16=false)
+	Disabled repairing diamond helmet. Default: true (B:washing-machine-17=false)
+	Disabled repairing diamond chestplate. Default: true (B:washing-machine-18=false)
+	Disabled repairing diamond leggings. Default: true (B:washing-machine-19=false)
+	Disabled repairing leather chestplate. Default: true (B:washing-machine-2=false)
+	Disabled repairing diamond boots. Default: true (B:washing-machine-20=false)
+	Disabled repairing leather leggings. Default: true (B:washing-machine-3=false)
+	Disabled repairing leather boots. Default: true (B:washing-machine-4=false)
+	Disabled repairing chainmail helmet. Default: true (B:washing-machine-5=false)
+	Disabled repairing chainmail chestplate. Default: true (B:washing-machine-6=false)
+	Disabled repairing chainmail leggings. Default: true (B:washing-machine-7=false)
+	Disabled repairing chainmail boots. Default: true (B:washing-machine-8=false)
+	Disabled repairing iron helmet. Default: true (B:washing-machine-9=false)
+
+Mod Update Detector:
+	MUD.cfg:
+	Disabled update check. Default: true (B:"Update Check Enabled"=false)
+
+Mystcraft:
+	mystcraft/balance.cfg:
+	Disabled instability. Default: true (B:global.enabled=false)
+	
+	mystcraft/core.cfg:
+	Disabled crafting binder. Default: true (B:crafting.binder.enabled=false)
+	Disabled desk. Default: true (B:crafting.desk.enabled=false)
+	Disabled deskback. Default: true (B:crafting.deskback.enabled=false)
+	Disabled folder. Default: true (B:crafting.folder.enabled=false)
+	Disabled portfolio. Default: true (B:crafting.portfolio.enabled=false)
+	Disabled respawning in ages. Default: true (B:respawning.respawnInAges=false)
+	Enabled using the configs instead of running calcualtions. Default: false (B:useconfigs=true)
+
+NEI Integration:
+	neiintegration.cfg:
+	Enabled showing burn time of items when used as furnace fuel. Default: false (B:"Burn Time"=true)
+	Enabled showing the internal name of items. Default: false (B:"Internal Name"=true)
+	Enabled showing the internal name of items only when holding shift. Default: false (B:"Internal Name Shift"=true)
+	Enabled showing the ore dictionary name of items. Default: false (B:"Ore Dictionary Names"=true)
+	Enabled showing the ore dictionary name of items only when holding shift. Default: false (B:"Ore Dictionary Names Shift"=true)
+
+Nether Ores:
+	powercrystals/netherores/common.cfg:
+	Disabled overriding vanilla nether quartz. Default: true (B:OverrideNetherQuartz=false)
+
+NoNausea:
+	NoNausea.cfg:
+	Disabled nausea effect. Default: 1 (I:Mode=0)
 
 OpenBlocks:
-Disabled death effects from FlimFlam. (B:safeOnly=true)
-Disabled giving the info book on first login. (B:infoBook=false)
-Disabled the explosive enchantment breaking blocks. (B:explosiveEnchantGrief=false)
-Disabled the grave spawning skeletons. (B:spawnSkeletons=false)
-Set the elevator to ignore blocks. (B:ignoreAllBlocks=true)
-Set the elevator to ignore half blocks. (B:ignoreHalfBlocks=true)
-Set the elevator to have 100 range. (I:searchDistance=100)
-
-OpenComputers:
-Added Botania, Blood Magic, Thaumcraft and Witchery to the computer blacklist. (modBlacklist=[Botania, Blood Magic, Thaumcraft, Witchery])
-Disabled giving the manual on first spawn. (giveManualToNewPlayers=false)
-Disabled update check.
+	OpenBlocks.cfg:
+	Changed Last Stand enchantment ID to 0. Default: 212 (I:lastStandEnchantmentId=0)
+	Disabled explosive enchantment grief. Default: true (B:explosiveEnchantGrief=false)
+	Disabled graves spawning skeletons. Default: true (B:spawnSkeletons=false)
+	Disabled info book on login. Default: true (B:infoBook=false)
+	Enabled ignoring block limit between elevators. Default: false (B:ignoreAllBlocks=true)
+	Enabled ignoring half blocks when counting blocks between elevators. Default: false (B:ignoreHalfBlocks=true)
+	Enabled allowing only flim flams that don't cause death. Default: false (B:safeOnly=true)
+	Increased search distance of elevators to 100. Default: 20 (I:searchDistance=100)
 
 Opis:
-Set the minimum level to view opis to ADMIN. (S:opis=ADMIN)
-Set the minimum level to show overlays on mapwriter to ADMIN. (S:overlays=ADMIN)
-Set the minimum level to view tables to ADMIN. (S:tables=ADMIN)
-
-PneumaticCraft:
-Disabled update check. (B:"Enable Update Checker"=false)
-Disabled IGW integration. (B:IGWMod=false)
-
-progressiveautomation:
-Disabled wither tools and its materials. (B:witherTools=false)
-
-ProjectRed:
-Disabled copper generation. (B:"Copper Ore"=false)
-Disabled silver generation. (B:"Silver Ore"=false)
-Disabled tin generation. (B:"Tin Ore"=false)
-Disabled update check. (B:"Enable Version checking"=false)
+	Opis.cfg:
+	Changed minimum access level to be able to view opis to ADMIN. Default: NONE (S:opis=ADMIN)
+	Changed minimum access level to be able to show overlays in MapWriter to ADMIN. Default: NONE (S:overlays=ADMIN)
+	Changed minimum access level to be able to view tables to ADMIN. Default: NONE (S:tables=ADMIN)
 
 RadixCore:
-Disabled update check. (B:"Allow update checking"=false)
+	RadixCore.cfg:
+	Disabled update check. Default: true (B:"Allow update checking"=false)
+	
+Railcraft:
+	railcraft/blocks.cfg:
+	Disabled poor copper ore generation. Default: true (B:ore.poor.gold=false)
+	Disabled poor gold ore generation. Default: true (B:ore.poor.iron=false)
+	Disabled iron ore generation. Default: true (B:ore.poor.lead=false)
+	Disabled lead ore generation. Default: true (B:ore.poor.lead=false)
+	Disabled tin ore generation. Default: true (B:ore.poor.tin=false)
+	Disabled residual heat. Default: true (B:residual.heat=false)
+	
+	railcraft/railcraft.cfg:
+	Disabled copper ore generation. Default: true (B:copper=false)
+	Disabled gold ore generation. Default: true (B:gold=false)
+	Disabled iron ore generation. Default: true (B:iron=false)
+	Disabled lead ore generation. Default: true (B:lead=false)
+	Disabled tin ore generation. Default: true (B:tin=false)
+	Disabled passive anchors being craftable. Default: true (B:passive.craftable=false)
+	Disabled passive anchors requiring fuel. Default: minecraft:ender_pearl=12 (S:passive.fuel=)
+	Disabled personal anchors requiring fuel. Default: minecraft:ender_pearl=12 (S:personal.fuel=)
+	Disabled world anchors being craftable. Default: true (B:craftable=false)
+	Disabled world anchors requiring fuel. Default: minecraft:ender_pearl=12 (S:world.fuel=)
 
 Random Things:
-Enabled Blood Moon mobs despawning at dawn. (B:BloodmoonVanish=true)
-Decreased the Blood Moon entity limit to 2. (Default: 3) (I:BloodMoonSpawnLimitMult=2)
-Decreased the Blood Moon mob spawning speed to 2. (Default: 3) (I:BloodMoonSpawnSpeed=2)
-Disabled Blood Moon red tint. (B:BloodMoonRedLight=false)
-Increased the Blood Moon minimum spawn range from players to 12. (Default: 3) (I:BloodMoonSpawnRange=12)
+	RandomThings.cfg:
+	Changed Imbue Experience potion ID to 85. Default: -1 (I:ImbueExperience=85)
+	Changed Imbue Fire potion ID to 88. Default: -1 (I:ImbueFire=88)
+	Changed Imbue Poison potion ID to 84. Default: -1 (I:ImbuePoison=84)
+	Changed Imbue Spectre potion ID to 118. Default: -1 (I:ImbueSpectre=118)
+	Changed Imbue Weakness potion iD to 117. Default: -1 (I:ImbueWeakness=117)
+	Changed Imbue Wither potion ID to 99. Default: -1 (I:ImbueWither=99)
+	Enabled Blood Moon monsters vanishing at dawn. Defualt: false (B:BloodmoonVanish=true)
+	Decreased Blood Moon spawn limit multiplier to 2. Default: 3 (I:BloodMoonSpawnLimitMult=2)
+	Decreased Blood Moon spawn speed to 2. Default: 3 (I:BloodMoonSpawnSpeed=2)
+	Disabled Blood Moon light red tint. Default: true (B:BloodMoonRedLight=false)
+	Increased Blood Moon minimum spawn range to 12. Default: 3 (I:BloodMoonSpawnRange=12)
 
 Sanguimancy:
-Disabled book and soul chunk claimer in starting inventory.
+	Sanguimancy.cfg:
+	Disabled items on first login. Default: true (B:addItemsOnFirstLogin=false)
 
 sprinkles_for_vanilla:
-Enabled hiding your own potion effects. (I:potionEffectsShown=1)
-Disabled most mob griefing. (B:mobGriefingOverride=true)
-Disabled spawn fuzz. (B:enableSpawnFuzz=false)
-Disabled sprint cooldown. (B:sprintingHasCooldown=false)
+	sprinkles_for_vanilla.cfg:
+	Disabled spawn fuzz. Default: true (B:enableSpawnFuzz=false)
+	Disabled sprint cooldown. Default: true (B:sprintingHasCooldown=false)
+	Enabled hiding your own potion effects. Default: 0 (I:potionEffectsShown=1)
+	Enabled mob griefing override. Default: false (B:mobGriefingOverride=true)
+	Disabled fallen on farmland mob griefing. Default: true (B:fallenOnFarmland=false)
+	Disabled mob pickup loot mob griefing. Default: true (B:mobPickUpLoot=false)
+	Disabled mob break door mob griefing. Default: true (B:mobBreakDoor=false)
+	Disabled mob eat tall grass mob griefing. Default: true (B:mobEatTallGrass=false)
+	Disabled ender dragon break block mob griefing. Default: true (B:enderDragonBreakBlock=false)
+	Disabled wither explode mob griefing. Default: true (B:witherExplode=false)
+	Disabled wither break block mob griefing. Default: true (B:witherBreakBlock=false)
+	Disabled creeper explosion mob griefing. Default: true (B:creeperExplosion=false)
+	Disabled enderman steal block mob griefing. Default: true (B:endermanStealBlock=false)
+	Disabled large fireball explosion mob griefing. Default: true (B:largeFireballExplosion=false)
+	Disabled wither skull explosion mob griefing. Default: true (:witherSkullExplosion=false)
 
-startingInventory:
-Removed starting items.
-
-SquidAPI:
-Disabled update check.
-
-TaintedMagic:
-Disabled update check.
+Tainted Magic:
+	TaintedMagic.cfg:
+	Disabled update check. Default: true (B:show_update_messages=false)
+	Disabled shadow ore generation. Default: false (B:disable_shadowore_spawning_in_world=true)
 
 Thaumcraft:
-Enable Cheat sheet in creative mode.
+	Thaumcraft.cfg:
+	Changed Eerie biome ID to 210. Default: 194 (I:biome_eerie=210)
+	Changed Eldritch biome ID to 211. Default: 195 (I:biome_eldritch=211)
+	Changed Magical Forest biome ID to 212. Default: 193 (I:biome_magical_forest=212)
+	Changed Taint biome ID to 213. Default: 192 (I:biome_taint=213)
+	Enabled Thaumonomicon cheat sheet in creative mode. Default: false (B:allow_cheat_sheet=true)
 
-ThaumicTinkerer:
-Disabled imbued fire. (B:imbuedFire.enabled=false)
-Disabled imbued fire making cake. (B:imbuedFire.cake.enabled=false)
+Thaumic Exploration:
+	ThaumicExploration.cfg:
+	Changed Binding enchantment ID to 208. Default: 77 (I:Binding=208)
+	Changed Disarming enchantment ID to 209. Default: 79 (I:Disarming=209)
+	Changed Night Vision enchantment ID to 210. Default: 78 (I:"Night Vision"=210)
 
-TinkersConstruct:
-Disabled aluminium generation. (B:"Generate Aluminum"=false)
-Disabled copper generation. (B:"Generate Copper"=false)
-Disabled tin generation. (B:"Generate Tin"=false)
-Disabled keeping hunger on death. (B:"Keep hunger on death"=false)
-Disabled spawning book on first login. (B:"Spawn beginner book"=false)
+Thaumic Tinkerer:
+	ThaumicTinkerer.cfg:
+	Changed Ascent Boost enchantment ID to 240. Default: 220 (I:"id_enchant.ttinkerer:ascentBoost"=240)
+	Changed Auto Smelt enchantment ID to 241. Default: 222 (I:"id_enchant.ttinkerer:autoSmelt"=241)
+	Changed Desintegrate enchantment ID to 242. Default: 223 (I:"id_enchant.ttinkerer:desintegrate"=242)
+	Changed Dispersed Strike enchantment ID to 243. Default: 166 (I:"id_enchant.ttinkerer:dispersedStrike"=243)
+	Changed Final Strike enchantment ID to 244. Default: 168 (I:"id_enchant.ttinkerer:finalStrike"=244)
+	Changed Focused Strike enchantment ID to 245. Default: 169 (I:"id_enchant.ttinkerer:focusedStrike"=245)
+	Changed Pounce enchantment ID to 246. Default: 170 (I:"id_enchant.ttinkerer:pounce"=246)
+	Changed Quick Draw enchantment ID to 247. Default: 224 (I:"id_enchant.ttinkerer:quickDraw"=247)
+	Changed Shatter enchantment ID to 248. Default: 167 (I:"id_enchant.ttinkerer:shatter"=248)
+	Changed Shockwave enchantment ID to 249. Default: 171 (I:"id_enchant.ttinkerer:shockwave"=249)
+	Changed Slow Fall enchantment ID to 250. Default: 221 (I:"id_enchant.ttinkerer:slowFall"=250)
+	Changed Tunnel enchantment ID to 251. Default: 172 (I:"id_enchant.ttinkerer:tunnel"=251)
+	Changed Valiance enchantment ID to 252. Default: 173 (I:"id_enchant.ttinkerer:valiance"=252)
+	Changed Vampirism enchantment ID to 253. Default: 225 (I:"id_enchant.ttinkerer:vampirism"=253)
+	Disabled Imbued Fire being able to make cake. Default: true (B:imbuedFire.cake.enabled=false)
+	Disabled Imbued Fire. Default: true (B:imbuedFire.enabled=false)
 
-Translocator:
-Disabled update check.
+Tinkers' Construct:
+	TinkersConstruct.cfg:
+	Disabled keeping hunger on death. Default: true (B:"Keep hunger on death"=false)
+	Disabled spawning begginer book. Default: true (B:"Spawn beginner book"=false)
+	Disabled aluminum generation. Default: true (B:"Generate Aluminum"=false)
+	Disabled aluminum bush generation. Default: true (B:"Generate Aluminum Bushes"=false)
+	Disabled copper generation. Default: true (B:"Generate Copper"=false)
+	Disabled copper bush generation. Default: true (B:"Generate Copper Bushes"=false)
+	Disabled essence bush generation. Default: true (B:"Generate Essence Bushes"=false)
+	Disabled gold bush generation. Default: true (B:"Generate Gold Bushes"=false)
+	Disabled iron bush generation. Default: true (B:"Generate Iron Bushes"=false)
+	Disabled tin generation. Default: true (B:"Generate Tin"=false)
+	Disabled tin bush generation. Default: true (B:"Generate Tin Bushes"=false)
+	Disabled Tinkerer villagers being able to trade for ore berry bushes. Default: true (B:"Enable the Tinkers Villager to trade for oreberries"=false)
 
-Zyin's Hud:
-Torchhelper disabled.
+Twilight Forest:
+	TwilightForest.cfg:
+	Changed Clearing biome ID to 190. Default: 76 (I:biome.id.Clearing=190)
+	Changed Dark Forest biome ID to 191. Default: 82 (I:biome.id.DarkForest=191)
+	Changed Dark Forest Center biome ID to 192. Default: 80 (I:biome.id.DarkForestCenter=192)
+	Changed Deep Mushrooms biome ID to 193. Default: 79 (I:biome.id.DeepMushrooms=193)
+	Changed Enchanted Forest biome ID to 194. Default: 83 (I:biome.id.EnchantedForest=194)
+	Changed Fire Swamp biome ID to 195. Default: 84 (I:biome.id.FireSwamp=195)
+	Changed Glacier biome ID to 196. Default: 75 (I:biome.id.Glacier=196)
+	Changed Highlands biome ID to 197. Default: 70 (I:biome.id.Highlands=197)
+	Changed Highlands Center biome ID to 198. Default: 81 (I:biome.id.HighlandsCenter=198)
+	Changed Lake biome ID to 199. Default: 42 (I:biome.id.Lake=199)
+	Changed Lighted Forest biome ID to 200. Default: 78 (I:biome.id.LightedForest=200)
+	Changed Mushrooms biome ID to 201. Default: 71 (I:biome.id.LightedForest=200)
+	Changed Oak Savanna biome ID to 202. Default: 77 (I:biome.id.OakSavanna=202)
+	Changed Snowfield biome ID to 203. Default: 74 (I:biome.id.Snowfield=203)
+	Changed Stream biome ID to 204. Default: 73 (I:biome.id.Stream=204)
+	Changed Swamp biome ID to 205. Default: 72 (I:biome.id.Swamp=205)
+	Changed Thornlands biome ID to 206. Default: 85 (I:biome.id.Thornlands=206)
+	Changed Twilight Forest biome ID to 207. Default: 207 (I:biome.id.TwilightForest=207)
+	Changed Twilight Forest Variant biome ID to 208. Default: 69 (I:biome.id.TwilightForestVariant=208)
+
+Witchery:
+	witchery.cfg:
+	Changed PotionStartID to 120. Default: 32 (I:PotionStartID=120)
+	Changed Absorb Magic potion ID to 66. Default: 62 (I:"witchery:potion.absorbmagic"=66)
+	Changed Allergy Dark potion ID to 50. Default: 46 (I:"witchery:potion.allergydark"=50)
+	Changed Allergy Sun potion ID to 42. Default: 38 (I:"witchery:potion.allergysun"=42)
+	Changed Attract Projectiles potion ID to 122. Default: 66 (I:"witchery:potion.attractprojectiles"=122)
+	Changed Brewing Expertise potion ID to 47. Default: 43 (I:"witchery:potion.brewingexpertise"=47)
+	Changed Chilled potion ID to 43. Default: 39 (I:"witchery:potion.chilled"=43)
+	Changed Colorful potion ID to 60. Default: 56 (I:"witchery:potion.colorful"=60)
+	Changed Diseased potion ID to 75. Default: 72 (I:"witchery:potion.diseased"=75)
+	Changed Double Jump potion ID to 48. Default: 44 (I:"witchery:potion.doublejump"=48)
+	Changed Ender Inhibition potion ID to 61. Default: 57 (I:"witchery:potion.enderinhibition"=61)
+	Changed Enslaved potion Id to 64. Default: 60 (I:"witchery:potion.enslaved"=64)
+	Changed Feather Fall potion ID to 49. Default: 45 (I:"witchery:potion.featherfall"=49)
+	Changed Feel No Pain potion ID to 73. Default: 69 (I:"witchery:potion.feelnopain"=73)
+	Changed Floating potion ID to 45. Default: 41 (I:"witchery:potion.floating"=45)
+	Changed Fortune potion ID to 76. Default: 73 (I:"witchery:potion.fortune"=76)
+	Changed Gas Mask potion ID to 74. Default: 71 (I:"witchery:potion.gasmask"=74)
+	Changed Grotesque potion ID to 40. Default: 36 (I:"witchery:potion.grotesque"=40)
+	Changed Hell Is Haura potion ID to 46. Default: 42 (I:"witchery:potion.hellishaura"=46)
+	Changed Ill Fitting potion ID to 62. Default: 58 (I:"witchery:potion.illfitting"=62)
+	Changed Insane potion ID to 52. Default: 48 (I:"witchery:potion.insane"=52)
+	Changed Keep Effects potion ID to 78. Default: 75 (I:"witchery:potion.keepeffects"=78)
+	Changed Keep Inventory potion ID to 53. Default: 49 (I:"witchery:potion.keepinventory"=53)
+	Changed Love potion ID to 41. Default: 37 (I:"witchery:potion.love"=41)
+	Changed Mortal Coil potion ID to 65. Default: 61 (I:"witchery:potion.mortalcoil"=65)
+	Changed Overheating potion ID to 55. Default: 51 (I:"witchery:potion.overheating"=55)
+	Changed Paralysed potion ID to 120. Default: 32 (I:"witchery:potion.paralysed"=120)
+	Changed Poison Weapons potion ID to 67. Default: 63 (I:"witchery:potion.poisonweapons"=67)
+	Changed Queasy potion ID to 121. Default 53 (I:"witchery:potion.queasy"=121)
+	Changed Reflect Damage potion ID to 69. Default: 65 (I:"witchery:potion.reflectdamage"=69)
+	Changed Reflect Projectiles potion ID to 68. Default: 64 (I:"witchery:potion.reflectprojectiles"=68)
+	Changed Reincarnate potion ID to 51. Default: 47 (I:"witchery:potion.reincarnate"=51)
+	Changed Repell Attacker potion ID to 71. Default: 67 (I:"witchery:potion.repellattacker"=71)
+	Changed Resizing potion ID to 59. Default: 55 (I:"witchery:potion.resizing"=59)
+	Changed Sinking potion ID to 54. Default: 50 (I:"witchery:potion.sinking"=54)
+	Changed Snowtrail potion ID to 44. Default: 40 (I:"witchery:potion.snowtrail"=44)
+	Changed Sprouting potion ID to 37. Default: 35 (I:"witchery:potion.sprouting"=37)
+	Changed Stoutbelly potion ID to 72. Default: 68 (I:"witchery:potion.stoutbelly"=72)
+	Changed Swimming potion ID to 58. Default: 54 (I:"witchery:potion.swimming"=58)
+	Changed Volatility potion ID to 63. Default: 59 (I:"witchery:potion.volatility"=63)
+	Changed Waking Nightmare potion ID to 56. Default: 52 (I:"witchery:potion.wakingnightmare"=56)
+	Changed Wolfsbane potion ID to 79. Default: 76 (I:"witchery:potion.wolfsbane"=79)
+	Changed Worship potion ID to 77. Default: 74 (I:"witchery:potion.worship"=77)
+
+Witching Gadgets:
+	WitchingGadgets.cfg:
+	Changed Gemstone Backstab enchantment ID to 69. Default: 91 (I:"Enchantment ID: Gemstone Backstab"=69)
+	Changed Gemstone Invisible Gear enchantment ID to 66. Default: 74 (I:"Enchantment ID: Gemstone Invisible Gear"=66)
+	Changed Gemstone Ride Protection enchantment ID to 73. Default: 92 (I:"Enchantment ID: Gemstone Ride Protection"=73)
+	Changed Gemstone Stealth enchantment id to 68. Default: 90 (I:"Enchantment ID: Gemstone Stealth"=68)
+	Changed Gemstone Unveiling enchantment id to 67. Default: 89 (I:"Enchantment ID: Gemstone Unveiling"=67)
+	Changed Cinder Coat potion ID to 39. (I:"Potion ID: Cinder Coat"=39)
+	Changed Dissolve potion ID to 38. (I:"Potion ID: Dissolve"=38)
+	Changed Knockback Resistance potion ID to 36. (I:"Potion ID: Knockback Resistance"=36)
+
+Zyin's HUD:
+	zyinhud.cfg:
+	Disabled auto unequipping armor before it breaks. Default: true (B:AutoUnequipArmor=false)
+	Disabled auto unequipping tools before they break. Default: true (B:AutoUnequipTools=false)
+	Disabled torch aid. Default: true (B:EnableTorchAid=false)
